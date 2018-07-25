@@ -40,12 +40,12 @@ The code currently defaults to 'Raw Detections Only' output.
 The T-79 Short range radar has the following output options.
 
 - Raw detections only:  in file src/tipi_to_rviz.cpp adjust lines #53 - 55 as so:
-'''
+```
     //you can adjust the returns that the radar puts to the CANBUS
     //start_radar_dual
     //start_radar_tracked
     start_radar_raw();
-'''
+```
 
 - Tracked detections only: in file src/tipi_to_rviz.cpp adjust lines #53 - 55 as so:
 '''
