@@ -121,7 +121,7 @@ public:
     frame.id              = 256;
     frame.data[0]         = 0x01;
     frame.data[1]         = 0xff;
-    frame.data[2]         = 0x02;
+    frame.data[2]         = 0x03;
     frame.data[3]         = 0xff;
     frame.data[4]         = 0xff;
     frame.data[5]         = 0xff;
